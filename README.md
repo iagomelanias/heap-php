@@ -8,13 +8,13 @@ composer install iagomelanias/heap-php
 ```
 
 ##Track Events
-```
+```php
 $heap = new \Heap\Client('APP_ID');
 $heap->track('Paid Order', 'example@example.com');
 ```
 
 ##Add User Properties
-```
+```php
 $heap = new \Heap\Client('APP_ID');
 $heap->addUserProperties('example@example.com', array(
     'profession' => 'Scientist',
