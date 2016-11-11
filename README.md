@@ -1,5 +1,5 @@
 #Heap PHP Client
-Library for sending data through Heap API.
+PHP library for sending data through Heap API.
 
 ##Installation
 You can install it using Composer:
