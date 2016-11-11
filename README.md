@@ -12,6 +12,7 @@ composer install iagomelanias/heap-php
 $heap = new \Heap\Client('APP_ID');
 $heap->track('Paid Order', 'example@example.com');
 ```
+[See full example](examples/track-event.php)
 
 ##Add User Properties
 ```php
@@ -20,3 +21,4 @@ $heap->addUserProperties('example@example.com', array(
     'profession' => 'Scientist',
 ));
 ```
+[See full example](examples/add-user-properties.php)
