@@ -1,4 +1,4 @@
-#Heap PHP Client
+# Heap PHP Client
 PHP library for sending data through Heap API.
 
 ##Installation
