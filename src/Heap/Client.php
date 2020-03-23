@@ -59,7 +59,7 @@ class Client
         );
         
         if(!empty($properties)){
-            $data['properties'] = $properties
+            $data['properties'] = $properties;
         }
 
         return $this->request->call('POST', '/track', $data);
