@@ -55,9 +55,12 @@ class Client
         $data = array(
             'app_id' => $this->appId,
             'event' => $event,
-            'properties' => $properties,
             'identity' => $identity,
         );
+        
+        if(!empty($properties)){
+            $data['properties'] = $properties
+        }
 
         return $this->request->call('POST', '/track', $data);
     }
