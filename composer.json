@@ -4,7 +4,7 @@
     "type": "library",
     "keywords": ["heap", "api", "heap analytics", "analytics", "event tracking"],
     "require": {
-      "guzzlehttp/guzzle": "~6.0"
+      "guzzlehttp/guzzle": "~6.0 | ~7.0"
     },
     "license": "MIT",
     "authors": [
